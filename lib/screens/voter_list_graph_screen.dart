@@ -145,7 +145,7 @@ class _VoterListGraphState extends State<VoterListGraph> {
             child: TextField(
               controller: _searchController,
               decoration: const InputDecoration(
-                hintText: "Search voters...",
+                hintText: "Please search here",
                 prefixIcon: Icon(Icons.search),
                 border: OutlineInputBorder(),
               ),

@@ -170,7 +170,7 @@ class _SurnameListScreenState extends State<SurnameListScreen> {
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
-                  hintText: "Search by Name / Area / Voter ID",
+                  hintText: "Please search here",
                   prefixIcon: const Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),

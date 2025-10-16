@@ -225,7 +225,7 @@ class _BoothGraphScreenState extends State<BoothGraphScreen> {
                 controller: _searchController,
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
-                  hintText: "Search Booth...",
+                  hintText: "Please search here",
                   hintStyle: const TextStyle(color: Colors.white70),
                   prefixIcon: const Icon(Icons.search, color: Colors.white),
                   filled: true,

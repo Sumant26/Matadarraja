@@ -218,7 +218,7 @@ class _BeachScreenState extends State<BeachScreen> {
                   child: TextField(
                     controller: searchController,
                     decoration: InputDecoration(
-                      hintText: languageProvider.getText('search'),
+                      hintText: "Please search here",
                       prefixIcon: const Icon(Icons.search),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),

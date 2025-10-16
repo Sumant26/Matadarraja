@@ -173,7 +173,7 @@ class _SurnameGraphScreenState extends State<SurnameGraphScreen> {
                 onChanged: _onSearchChanged,
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
-                  hintText: "Search surname...",
+                  hintText: "Please search here",
                   hintStyle: const TextStyle(color: Colors.white70),
                   prefixIcon: const Icon(Icons.search, color: Colors.white),
                   filled: true,

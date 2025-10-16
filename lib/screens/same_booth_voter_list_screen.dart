@@ -179,7 +179,7 @@ class _BeachScreenState extends State<SameBoothVoterListScreen> {
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
-                  hintText: removeUnderscores('search_by_name_area_voter_id'),
+                  hintText: "Please search here",
                   prefixIcon: const Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),

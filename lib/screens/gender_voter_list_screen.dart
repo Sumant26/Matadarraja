@@ -188,7 +188,7 @@ class _GenderVoterListScreenState extends State<GenderVoterListScreen> {
               child: TextField(
                 controller: _searchController,
                 decoration: InputDecoration(
-                  hintText: "Search by name / Epic No",
+                  hintText: "Please search here",
                   prefixIcon: const Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),

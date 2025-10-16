@@ -169,7 +169,7 @@ class _TownVoterListScreenState extends State<TownVoterListScreen> {
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
-                  hintText: "Search by name / voter id...",
+                  hintText: "Please search here",
                   prefixIcon: const Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),

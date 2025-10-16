@@ -272,7 +272,7 @@ class _AdvancedSearchResultScreenState
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
-                  hintText: "Search in results",
+                  hintText: "Please search here",
                   prefixIcon: const Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
